@@ -1,4 +1,4 @@
-# StreamAttention: Fused Online Softmax Attention. ask:[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ibusnowden/attn)
+# StreamAttention: Fused Online Softmax Attention. [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/ibusnowden/attn)
 
 A high-performance attention mechanism that computes softmax normalization in a single streaming pass using running accumulators (online softmax). The design achieves O(N) memory, strong numerical stability via log-sum-exp, and competitive throughput with modern flash attention baselines.
 
